@@ -1,8 +1,8 @@
-# sweptWingMeshAnalysis
+# Swept Wing Panel Code Mesh Analysis (by R.de Givry)
 Python and shell scripts used to perform a mesh convergence analysis on swept wing 3D panel codes
 
 # Scope
-This code was intended to solve the last question of the Low Speed Flow Past A High Aspect Ratio Swept Wing from AE3-417
+This code was intended to solve the last question of the Low Speed Flow Past a High Aspect Ratio Swept Wing laboratory exercise from AE3-417
 
 ## Required software
 The code requires the user to submit two FORTRAN files a mesh generator (geowing.f) that reads the mesh parametres from Panel_code/meshParam.dat. And combo.f a solver that outputs at least 3 sectionnal files sect_001 sect_002 and sect_003 and reads stream definition data from Panel_code/stream.dat.
