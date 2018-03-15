@@ -1,6 +1,7 @@
 #This function analyses the data provided by the panel codes
-import numy as np
+import numpy as np
 import matplotlib.pyplot as plt
+from os import listdir
 
 def extractMeshConv(angles = (0, 6, 15)):
     from matplotlib.ticker import MultipleLocator
@@ -33,7 +34,7 @@ def extractMeshConv(angles = (0, 6, 15)):
             ax = axs[i][j]
             #CS = ax.contour(X,Y,data[jtem][item],colors='k')#, levels=[Cls[item][j]],colors = ('w',))
             #ax.clabel(CS, colors = 'w', fontsize=8)
-            CSF = ax.contourf(X,Y,data[jtem][item],clev,cmap=plt.cm.viridis)
+            CSF = ax.contourf(X,Y,data[jtem][item],clev,cmap=plt.cm.plasma)
             ax.set_xlim((0,40))
             ax.set_ylim((0,20))
             ax.xaxis.set_minor_locator(MultipleLocator(2))
@@ -55,5 +56,6 @@ def extractMeshConv(angles = (0, 6, 15)):
     #fig.tight_layout()
     #save
     fig.savefig('mesh_convergence.png',dpi =300)
+#run the function
 extractMeshConv()
 plt.show()
