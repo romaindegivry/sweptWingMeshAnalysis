@@ -23,4 +23,5 @@ The code can be inproved by:
     -Communicating the simulation parameters to python
   - Improving the management of simulation data
   - Executing simulation cases in parallel (large performance increase)
-  
+
+Pull requests welcome!
