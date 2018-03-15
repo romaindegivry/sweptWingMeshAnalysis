@@ -1,4 +1,5 @@
-# Swept Wing Panel Code Mesh Analysis (by R.de Givry)
+# Swept Wing Panel Code Mesh Analysis
+
 Python and shell scripts used to perform a mesh convergence analysis on swept wing 3D panel codes
 
 # Scope
