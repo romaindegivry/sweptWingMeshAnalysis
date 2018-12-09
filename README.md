@@ -1,6 +1,7 @@
 # Swept Wing Panel Code Mesh Analysis
 
 Python and shell scripts used to perform a mesh convergence analysis on swept wing 3D panel codes
+results.zip contains a large number of pre-computed meshes.
 
 # Scope
 This code was intended to solve the last question of the Low Speed Flow Past a High Aspect Ratio Swept Wing laboratory exercise from AE3-417
